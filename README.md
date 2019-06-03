@@ -14,8 +14,8 @@ Implement Redux in Todos.
 
 * Setup Redux according to the protocol specified in the [docs](https://redux.js.org/).
 * Convert all of your handlers to Redux actions and update state with a reducer. EVERY SINGLE ACTION THAT UPDATES STATE SHOULD BE AN ACTION. YOU SHOULD NOT SEE `setState` ANYWHERE IN YOUR APPLICATION.
-* Stretch: Implement [Immutable JS](https://facebook.github.io/immutable-js/) to ensure that your state remains immutable. Note that you'll probably have to make a lot of small tweaks within your code to successfully implement Immutable. If you are behind and need to catchup, skip ImmutableJS and keep your state immutable by making a new copy of state in your reducer with `JSON.parse(JSON.stringify())`.
-* If you have time: Implement undo (this should be pretty easy now!)
+* Be sure to keep your state immutable by making a new copy of state in your reducer with `JSON.parse(JSON.stringify())`. (Stretch: Implement [Immutable JS](https://facebook.github.io/immutable-js/) instead to ensure that your state remains immutable. Note that you'll probably have to make a lot of small tweaks within your code to successfully implement Immutable.)
+* If you have time: implement undo (this should be pretty easy now!)
 
 ## Release 2
 
