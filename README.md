@@ -28,7 +28,7 @@ In this release, you'll learn how to interact with servers. We're getting closer
 
 * Whit's Custard on me!
 
-_**In the interest of time, please skip the below release!**_
+_**In the interest of time, please skip the release below!**_
 ## Release 4
 
 Many of the application you will make will require some sort of web form. Despite seeming simple, forms are actually beasts. What if the user types in incorrect data? What if they forget a required field? What if you want to auto-populate a dropdown based on a user's login information? What if you want to enable/disable parts of a field based on a user's response?
