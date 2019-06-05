@@ -15,7 +15,7 @@
     "id": 1,
     "type":"todo"
   },
-  { "text": "Sleep", "completed": true, "color": "yellow", "dueDate": new Date(1528213744759), "id": 4,
+  { "text": "Sleep", "completed": true, "color": "yellow", "dueDate": 1528213744759, "id": 4,
     "type":"todo" },
   {
     "text": "Have lots of fun.",
