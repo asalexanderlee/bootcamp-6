@@ -4,7 +4,7 @@
     "completed": true,
     "color": "red",
     "dueDate": 1528213744759,
-    "_id": 0,
+    "id": 0,
     "type":"todo"
   },
   {
@@ -12,17 +12,17 @@
     "completed": false,
     "color": "orange",
     "dueDate": 1528213744759,
-    "_id": 1,
+    "id": 1,
     "type":"todo"
   },
-  { "text": "Sleep", "completed": true, "color": "yellow", "dueDate": 1528213744759, "_id": 4,
+  { "text": "Sleep", "completed": true, "color": "yellow", "dueDate": 1528213744759, "id": 4,
     "type":"todo" },
   {
     "text": "Have lots of fun.",
     "completed": true,
     "color": "green",
     "dueDate": 1528213744759,
-    "_id": 2,
+    "id": 2,
     "type":"todo"
   },
   {
@@ -30,7 +30,7 @@
     "completed": false,
     "color": "blue",
     "dueDate": 1528213744759,
-    "_id": 3,
+    "id": 3,
     "type":"todo"
   }
 ]
