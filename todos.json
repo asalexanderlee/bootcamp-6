@@ -3,7 +3,7 @@
     "text": "Learn React",
     "completed": true,
     "color": "red",
-    "dueDate": new Date(1528213744759),
+    "dueDate": new Date('December 17, 1995 03:24:00'),
     "id": 0,
     "type":"todo"
   },
