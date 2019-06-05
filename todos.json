@@ -3,7 +3,7 @@
     "text": "Learn React",
     "completed": true,
     "color": "red",
-    "dueDate": 1528213744759,
+    "dueDate": new Date(1528213744759),
     "id": 0,
     "type":"todo"
   },
@@ -11,17 +11,17 @@
     "text": "Learn Redux",
     "completed": false,
     "color": "orange",
-    "dueDate": 1528213744759,
+    "dueDate": new Date(1528213744759),
     "id": 1,
     "type":"todo"
   },
-  { "text": "Sleep", "completed": true, "color": "yellow", "dueDate": 1528213744759, "id": 4,
+  { "text": "Sleep", "completed": true, "color": "yellow", "dueDate": new Date(1528213744759), "id": 4,
     "type":"todo" },
   {
     "text": "Have lots of fun.",
     "completed": true,
     "color": "green",
-    "dueDate": 1528213744759,
+    "dueDate": new Date(1528213744759),
     "id": 2,
     "type":"todo"
   },
@@ -29,7 +29,7 @@
     "text": "Become a really great web developer",
     "completed": false,
     "color": "blue",
-    "dueDate": 1528213744759,
+    "dueDate": new Date(1528213744759),
     "id": 3,
     "type":"todo"
   }
