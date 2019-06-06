@@ -1,31 +1,36 @@
 [
   {
-    "description": "Learn React",
+    "text": "Learn React",
     "completed": true,
     "color": "red",
-    "dueDate": 1528213744759,
-    "_id": 0.8517449838861129
+    "dueDate": "December 17, 1995 03:24:00",
+    "id": 0,
+    "type":"todo"
   },
   {
-    "description": "Learn Redux",
+    "text": "Learn Redux",
     "completed": false,
     "color": "orange",
-    "dueDate": 1528213744759,
-    "_id": 0.7985830103571325
+    "dueDate": "December 17, 1995 03:24:00",
+    "id": 1,
+    "type":"todo"
   },
-  { "description": "Sleep", "completed": true, "color": "yellow", "dueDate": 1528213744759, "_id": 0.7482457823972508 },
+  { "text": "Sleep", "completed": true, "color": "yellow", "dueDate": "December 17, 1995 03:24:00", "id": 4,
+    "type":"todo" },
   {
-    "description": "Have lots of fun.",
+    "text": "Have lots of fun.",
     "completed": true,
     "color": "green",
-    "dueDate": 1528213744759,
-    "_id": 0.6057708422243576
+    "dueDate":"December 17, 1995 03:24:00",
+    "id": 2,
+    "type":"todo"
   },
   {
-    "description": "Become a really great web developer",
+    "text": "Become a really great web developer",
     "completed": false,
     "color": "blue",
-    "dueDate": 1528213744759,
-    "_id": 0.29483646569546773
+    "dueDate": "December 17, 1995 03:24:00",
+    "id": 3,
+    "type":"todo"
   }
 ]
