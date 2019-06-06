@@ -1,41 +1,68 @@
-## Redux
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Hello, React extraordinaires! Today we are complementing React with a nifty little design pattern (and technology) called Redux. Remember how hard it was to implement undo with Flux architecture? In every single handler we had to account for undo. Yucky! Redux solves this problem by merging all of our handlers into one single function. This allows us to update our history object with just one big function. But do not think that this is all it does. Redux solves many more design challenges and makes it easy to build complex web applications on top of React. Behold!
+## Available Scripts
 
-Today your task is to implement Redux architecture into your todo app.
+In the project directory, you can run:
 
-## Release 0
+### `npm start`
 
-Start by watching [this video](https://www.youtube.com/watch?v=1w-oQ-i1XB8). [This](https://egghead.io/courses/getting-started-with-redux) is also a really good tutorial if you have the time for it.
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Release 1
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-Implement Redux in Todos.
+### `npm test`
 
-* Setup Redux according to the protocol specified in the [docs](https://redux.js.org/).
-* Convert all of your handlers to Redux actions and update state with a reducer. EVERY SINGLE ACTION THAT UPDATES STATE SHOULD BE AN ACTION. YOU SHOULD NOT SEE `setState` ANYWHERE IN YOUR APPLICATION.
-* Be sure to keep your state immutable by making a new copy of state in your reducer with `JSON.parse(JSON.stringify())`. (Stretch: Implement [Immutable JS](https://facebook.github.io/immutable-js/) instead to ensure that your state remains immutable. Note that you'll probably have to make a lot of small tweaks within your code to successfully implement Immutable.)
-* If you have time: implement undo (this should be pretty easy now!)
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Release 2
+### `npm run build`
 
-In this release, you'll learn how to interact with servers. We're getting closer to linking our API to the frontend! Woo!
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-* First, we need to learn about [Redux Thunk](https://github.com/reduxjs/redux-thunk). Out of the box, we can only dispatch synchronous actions to Redux. However, Redux Thunks allow us to dispatch asynchronous actions and then update the store only when the function resolves. Woohoo!
-* Now it's time to grab some data from our server and load it into our app. We don't have an API running (yet), so we are going to grab our todo list from this link: `https://raw.githubusercontent.com/asalexanderlee/bootcamp-6/master/todos.json`. The action should first fetch the JSON object from the link (our fake server). Once the fetch promise resolves, it should dispatch an action typed `LOAD_TODOS` that adds the todos to the store. Note, that if you need to change the structure of todos.json, checkout your own branch, update the JSON file, push it up, and then update the `githubusercontent.com` link. (The link is RESTful so you should know how to do this!). Once the data has loaded, you should be able to edit the todo list as normal. However, any of the edits that you make will not save to the server. We will get to that tomorrow!
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-## Release 3
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-* Whit's Custard on me!
+### `npm run eject`
 
-_**In the interest of time, please skip the release below!**_
-## Release 4
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-Many of the application you will make will require some sort of web form. Despite seeming simple, forms are actually beasts. What if the user types in incorrect data? What if they forget a required field? What if you want to auto-populate a dropdown based on a user's login information? What if you want to enable/disable parts of a field based on a user's response?
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Although, it's not a silver bullet, Redux Forms is a great package that does A LOT of work for you. Your job is to use Redux Form to handle all of your input fields in your todo app, including (but not limited to!) the following:
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-* Description
-* Date
-* Stars
-* Complete
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
