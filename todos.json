@@ -1,11 +1,5 @@
 [
-  {
-    "text": "Learn React",
-    "completed": true,
-    "color": "red",
-    "dueDate": 1628213744759,
-    "id": 0.8517449838861129
-  },
+
   {
     "text": "Learn Redux",
     "completed": false,
